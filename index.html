@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
 </head>
+
 <body>
     <div class="app">
         <header class="header">
             <div class="grid">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--separate">Kênh Người Bán</li>
+                        <li class="header__navbar-item header__navbar-item--separate">
+                            Kênh Người Bán
+                        </li>
                         <li class="header__navbar-item header__navbar-item--separate">Trở thành Người bán Shopee</li>
-                        <li class="header__navbar-item header__navbar-item--separate">Tải ứng dụng</li>
+                        <li class="header__navbar-item header__navbar-item--separate header__navbar-item--has-qr">
+                            Tải ứng dụng
+                            <div class="header__qr">
+                                <img src="./assets/img/qr_code.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png" alt="" class="header_qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="" class="header_qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="header__navbar-item">
                             <span class="header_navbar-title-no-pointer">
                                 Kết nối
@@ -32,13 +50,70 @@
                             </a>
                         </li>
                     </ul>
-    
+
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
                             <a href="" class="header_navbar-item-link">
                                 <i class="header__navbar-icon far fa-bell"></i>
                                 Thông báo
                             </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sp.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-description">Mô tả mỹ phẩm Ohui chính
+                                                    hãng</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sp.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-description">Mô tả mỹ phẩm Ohui chính
+                                                    hãng</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sp.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-description">Mô tả mỹ phẩm Ohui chính
+                                                    hãng</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sp.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-description">Mô tả mỹ phẩm Ohui chính
+                                                    hãng</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header_navbar-item-link">
@@ -50,13 +125,13 @@
                             Đăng ký
                         </li>
                         <li class="header__navbar-item header__navbar-item--strong">
-                           Đăng nhập
+                            Đăng nhập
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
-        
+
         <div class="container">
 
         </div>
@@ -66,4 +141,5 @@
         </footer>
     </div>
 </body>
+
 </html>
